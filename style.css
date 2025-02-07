@@ -9,9 +9,15 @@ body {
     color: black;
 }
 
+.div-principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 /* Cabeçalho */
 .div-topo {
-    width: 100%;
+    width: 100%;    
     height: 10vh;
     padding-right: 3%;
     display: flex;
@@ -68,6 +74,19 @@ body {
     text-align: center;
     flex-direction: column;
     margin-top: 20vh;
+    width: 80%;
+}
+
+.hero-section h1 {
+    font-size: 2.9rem;
+    background-image: linear-gradient(45deg, #ed6b2f, #ffffff);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.hero-section p {
+    font-size: 1.2rem;
+    font-weight: 600;
 }
 
 /* Modelos de Orçamento */
@@ -77,11 +96,11 @@ body {
     gap: 20px;
     padding: 40px;
     position: relative;
-    top: 10vh;
+    top: 5vh;
 }
 
 .orcamento {
-    width: 300px;
+    width: 400px;
     padding: 20px;
     text-align: center;
     background: linear-gradient(45deg, #F68E5F, #ffffff);
@@ -109,7 +128,7 @@ body {
 }
 
 .orcamento a:hover {
-    background-color: #e8ab10;
+    background-color: #f1f1f1;
     color: #000;
 }
 
@@ -131,8 +150,9 @@ body {
     margin-top: 10px;
 }
 
-.redes-sociais img {
-    width: 30px;
+.redes-sociais a {
+    color: #e8ab10;
+    font-size: 1.9rem;
 }
 
 /* Responsividade */
@@ -154,12 +174,16 @@ body {
         right: 4%;
     }
 
+    .hero-section h1 {
+        font-size: 1.4rem;
+    }
+
     .modelos-orcamento {
         flex-direction: column;
         align-items: center;
     }
 
     .orcamento {
-        width: 80%;
+        width: 100%;
     }
 }
