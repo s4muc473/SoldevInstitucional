@@ -17,7 +17,7 @@ body {
     align-items: center;
     overflow-y: auto;
     scroll-behavior: smooth;
-    height: 80vh;
+    height: 85vh;
 }
 
 ::-webkit-scrollbar {
