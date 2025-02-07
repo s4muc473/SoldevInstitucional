@@ -164,12 +164,17 @@ body {
         justify-content: space-between;
     }
 
+    .logo {
+        position: relative;
+        right: 5%;
+    }
+
     .menu-topo {
         display: none;
     }
 
     .botao-contato {
-        width: 140px;
+        width: 100px;
         font-size: 1rem;
         padding: 2%;
         position: relative;
